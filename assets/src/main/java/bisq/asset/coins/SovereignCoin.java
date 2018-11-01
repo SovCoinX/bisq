@@ -28,7 +28,7 @@ public class Sovereign extends Coin {
     }
 
 
-    public static class sovereigncoinParams extends NetworkParametersAdapter {
+    public static class SovereignParams extends NetworkParametersAdapter {
 
         public SovereignParams() {
             addressHeader = 50;
