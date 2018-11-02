@@ -31,7 +31,7 @@ public class Sovereign extends Coin {
     public static class SovereignParams extends NetworkParametersAdapter {
 
         public SovereignParams() {
-            addressHeader = 50;
+            addressHeader = 63;
             p2shHeader = 18;
             acceptableAddressCodes = new int[]{addressHeader, p2shHeader};
         }
