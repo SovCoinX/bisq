@@ -21,10 +21,10 @@ import bisq.asset.AbstractAssetTest;
 
 import org.junit.Test;
 
-public class SovereignCoinTest extends AbstractAssetTest {
+public class SovereignTest extends AbstractAssetTest {
 
-    public SovereignCoinTest() {
-        super(new SovereignCoin());
+    public SovereignTest() {
+        super(new Sovereign());
     }
 
     @Test
@@ -36,8 +36,8 @@ public class SovereignCoinTest extends AbstractAssetTest {
     @Test
     public void testInvalidAddresses() {
         assertInvalidAddress("JctX918ChPXd66V98sr6ZUpLB5bWYk1Sbu");
-        assertInvalidAddress("SctJ918ChWYd6V698ur6ZUpLB5bXXk1Pbs");
-        assertInvalidAddress("ShtX91dCcPX86V698sr6ZUpLBbbWYk1J5u#");
+        assertInvalidAddress("SCtJ918ChWYd6V698ur6ZUpLB5bXXk1Pbs");
+        assertInvalidAddress("Sht91dCcPX86V698sr6ZUpLBbbWYk1J5u#");
         assertInvalidAddress("XctX918ChPSd6V698sr6uUpLB5bWYJ1kbZ");
         assertInvalidAddress("9ctXS18ChPX6d86BVsr6ZUpL95bWYk1Jbu");
     }
